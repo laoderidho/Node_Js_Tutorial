@@ -2,7 +2,7 @@
 //untuk menggunakan main file / file utama maka kita harus memberi command npm init -y
 const express = require('express') //mengambil modul dari express
 const app = express() //mendeklarasikan lagi method express dalam 1 variable
-const port = 3000  //mendeklarasikan di mana port tersebut di localhost browser
+const port = 2500  //mendeklarasikan di mana port tersebut di localhost browser
 const body = require('body-parser') //untuk mendeklarasikan agar bisa membaca postman, untuk menginstallnya cukup di beri command npm i body-parser
 
 app.use(body.json()) //untuk memanggil json 
