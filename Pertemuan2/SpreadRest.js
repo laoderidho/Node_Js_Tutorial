@@ -7,7 +7,11 @@ console.log(mh2)
 
 //rest Parameter
 const myFunc = (...el) =>{
-    return el
+    let temp = 0;
+    for(let i=0; i<el.length; i++){
+        temp += el[i]
+    }
+    return temp
 }
 
 console.log(myFunc(1,3,5,1))
