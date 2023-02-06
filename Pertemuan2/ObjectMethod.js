@@ -10,5 +10,5 @@ const Person = {
 const nama = 'Ridho';
 const age = 19;
 
-//seperti inilah cara memanggilnya 
+//seperti inilah cara memanggil Method
 Person.greet(nama, age)
