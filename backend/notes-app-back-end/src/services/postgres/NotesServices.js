@@ -46,6 +46,7 @@ class NotesService {
     return result.rows.map(mapDBToModel)[0];
   }
 
+
   async editNoteById(id, { title, body, tags }) {
     const updatedAt = new Date().toISOString();
     const query = {
